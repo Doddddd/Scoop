@@ -1,0 +1,29 @@
+{
+    "version": "9.9.11",
+    "description": "QQ-NT",
+    "homepage": "https://im.qq.com",
+    "license": "Freeware",
+    "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.11_240606_x64_01.exe#/dl.7z",
+    "pre_install": [
+        "$configpath = \"$env:PUBLIC\\Documents\\Tencent\\QQ\"",
+        "if (!(Test-Path \"$configpath\")) {",
+        "    New-Item -Path \"$configpath\" -Type Directory -Force | Out-Null",
+        "}",
+        "Set-Content -NoNewline -Path \"$configpath\\UserDataInfo.ini\" -Value \"[UserDataSet]`nUserDataSavePathType=2`nUserDataSavePath=$persist_dir\\QQ Files\""
+    ],
+    "shortcuts": [
+        [
+            "Files\\QQ.exe",
+            "QQ-NT"
+        ]
+    ],
+    "persist": "QQ Files",
+    "post_install": "Remove-Item -Path \"$env:PUBLIC\\Documents\\Tencent\" -Recurse -Force | Out-Null",
+    "checkver": {
+        "url": "https://cdn-go.cn/qq-web/im.qq.com_new/latest/rainbow/windowsDownloadUrl.js",
+        "regex": "QQNT/Windows/QQ_([\\d.]+)_([\\d.]+)_x86_([\\d.]+).exe.*QQNT/Windows/QQ_([\\d.]+)_([\\d.]+)_x64_([\\d.]+).exe"
+    },
+    "autoupdate": {
+        "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_$match1_$match2_x64_$match3.exe#/dl.7z"
+    }
+}

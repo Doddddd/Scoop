@@ -1,0 +1,24 @@
+{
+    "version": "3.30.20.451",
+    "description": "腾讯会议",
+    "homepage": "https://meeting.tencent.com",
+    "license": "Freeware",
+    "url": "https://updatecdn.meeting.qq.com/cos/afad1cbfae8e556aa56fd9988353706e/TencentMeeting_0300000000_3.30.20.451.publish.officialwebsite.exe#/dl.7z",
+    "shortcuts": [
+        [
+            "wemeetapp.exe",
+            "腾讯会议"
+        ]
+    ],
+    "post_install": [
+        "Remove-Item \"$dir\\`$PLUGINSDIR\",\"$dir\\`$TEMP\",\"$dir\\`$WINDIR\" -Force -Recurse",
+        "Rename-Item \"$dir\\`$_*_\" \"$dir\\$version\""
+    ],
+    "checkver": {
+        "url": "https://meeting.tencent.com/web-service/query-download-info?q=%5B%7B%22package-type%22:%22app%22,%22channel%22:%220300000000%22,%22platform%22:%22windows%22%7D%5D&nonce=0000000000000000",
+        "regex": "https://(?<url>.+\\.exe).*?\"version\":.*?\"([\\d.]+)\""
+    },
+    "autoupdate": {
+        "url": "https://$matchUrl#/dl.7z"
+    }
+}

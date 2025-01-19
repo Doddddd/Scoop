@@ -1,0 +1,22 @@
+{
+    "version": "422_1345",
+    "description": "钱迹",
+    "homepage": "https://qianjiapp.com",
+    "license": "Freeware",
+    "url": "https://app.qianjiapp.com/qianji_422_1345.zip",
+    "extract_dir": "qianji_422_1345",
+    "shortcuts": [
+        [
+            "qianji.exe",
+            "钱迹"
+        ]
+    ],
+    "checkver": {
+        "url": "https://docs.qianjiapp.com/change-log/change_log_pc.html",
+        "regex": "qianji_(\\d+_\\d+).exe"
+    },
+    "autoupdate": {
+        "url": "https://app.qianjiapp.com/qianji_$version.zip",
+        "extract_dir": "qianji_$version"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "version": "1.4.0",
+    "description": "FastbootEnhance",
+    "homepage": "https://github.com/libxzr/FastbootEnhance",
+    "license": "MIT",
+    "url": "https://github.com/libxzr/FastbootEnhance/releases/download/v1.4.0/Release.zip",
+    "shortcuts": [
+        [
+            "FastbootEnhance.exe",
+            "FastbootEnhance"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/libxzr/FastbootEnhance/releases/download/v$version/Release.zip"
+    }
+}

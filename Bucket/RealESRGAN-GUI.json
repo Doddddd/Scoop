@@ -1,0 +1,25 @@
+{
+    "version": "autobuild-20240602-060617",
+    "description": "Real-ESRGAN GUI",
+    "homepage": "https://github.com/TransparentLC/realesrgan-gui",
+    "license": "AGPL-3.0",
+    "url": "https://github.com/TransparentLC/realesrgan-gui/releases/download/autobuild-20240602-060617/realesrgan-gui-windows-bundled-v0.2.5.0.7z",
+    "pre_install": [
+        "if (Test-Path \"$scoopdir\\apps\\$app\\$old_version\\config.ini\") {",
+        "    Copy-Item -Path \"$scoopdir\\apps\\$app\\$old_version\\config.ini\" \"$dir\\config.ini\"",
+        "}"
+    ],
+    "shortcuts": [
+        [
+            "realesrgan-gui.exe",
+            "Real-ESRGAN GUI"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/TransparentLC/realesrgan-gui/releases/latest",
+        "regex": "/releases/tag/(autobuild-[\\d-]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/TransparentLC/realesrgan-gui/releases/download/$version/realesrgan-gui-windows-bundled-v0.2.5.0.7z"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "version": "1.1.3",
+    "description": "SyncYomi",
+    "homepage": "https://github.com/syncyomi/syncyomi",
+    "license": "GPL-2.0",
+    "url": "https://github.com/syncyomi/syncyomi/releases/download/v1.1.3/syncyomi_1.1.3_windows_x86_64.zip",
+    "pre_install": [
+        "if (Test-Path \"$scoopdir\\apps\\$app\\$old_version\\syncyomi.db\") {",
+        "    Copy-Item -Path \"$scoopdir\\apps\\$app\\$old_version\\syncyomi.db\" \"$dir\\syncyomi.db\"",
+        "}",
+        "if (Test-Path \"$scoopdir\\apps\\$app\\$old_version\\config.toml\") {",
+        "    Copy-Item -Path \"$scoopdir\\apps\\$app\\$old_version\\config.toml\" \"$dir\\config.toml\"",
+        "}"
+    ],
+    "bin": [
+        [
+            "syncyomi.exe",
+            "SyncYomi",
+            "--config=\"$dir\""
+        ]
+    ],
+    "shortcuts": [
+        [
+            "syncyomi.exe",
+            "SyncYomi",
+            "--config=\"$dir\""
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/syncyomi/syncyomi/releases/download/v$version/syncyomi_$version_windows_x86_64.zip"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "version": "10.19.8.0",
+    "description": "Office Tool Plus",
+    "homepage": "https://github.com/YerongAI/Office-Tool",
+    "license": "MIT",
+    "url": "https://github.com/YerongAI/Office-Tool/releases/download/v10.19.8.0/Office_Tool_with_runtime_v10.19.8.0_x64.zip",
+    "extract_dir": "Office Tool",
+    "shortcuts": [
+        [
+            "Office Tool Plus.exe",
+            "Office Tool Plus"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/YerongAI/Office-Tool/releases/download/v$version/Office_Tool_with_runtime_v$version_x64.zip"
+    }
+}

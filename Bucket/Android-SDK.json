@@ -1,0 +1,36 @@
+{
+    "version": "11076708",
+    "description": "Android-SDK",
+    "homepage": "https://developer.android.com/studio",
+    "license": "Freeware",
+    "url": "https://dl.google.com/android/repository/commandlinetools-win-11076708_latest.zip",
+    "extract_dir": "cmdline-tools",
+    "extract_to" : "cmdline-tools\\latest",
+    "env_add_path": "cmdline-tools/latest\\bin",
+    "env_set": {
+        "ANDROID_HOME": "$dir\\cmdline-tools\\latest"
+    },
+    "persist": [
+        "add-ons",
+        "build-tools",
+        "cmake",
+        "emulator",
+        "extras",
+        "licenses",
+        "ndk",
+        "ndk-bundle",
+        "patcher",
+        "platforms",
+        "platform-tools",
+        "skiaparser",
+        "sources",
+        "system-images"
+    ],
+    "checkver": {
+        "url": "https://developer.android.com/studio",
+        "regex": ">commandlinetools-win-(\\d+)_latest.zip</button>"
+    },
+    "autoupdate": {
+        "url": "https://dl.google.com/android/repository/commandlinetools-win-$version_latest.zip"
+    }
+}

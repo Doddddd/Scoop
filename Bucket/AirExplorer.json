@@ -1,0 +1,21 @@
+{
+    "version": "5.7.0",
+    "description": "AirExplorer",
+    "homepage": "https://www.airexplorer.net",
+    "license": "Freeware",
+    "url": "http://www.airexplorer.net/downloads/AirExplorer-OnlineInstaller.exe#/dl.7z",
+    "shortcuts": [
+        [
+            "AirExplorer.exe",
+            "AirExplorer"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+    "checkver": {
+        "url": "https://www.airexplorer.net/en/download/",
+        "regex": "version (\\d+.\\d+.\\d+)</h3>"
+    },
+    "autoupdate": {
+        "url": "http://www.airexplorer.net/downloads/AirExplorer-OnlineInstaller.exe#/dl.7z"
+    }
+}

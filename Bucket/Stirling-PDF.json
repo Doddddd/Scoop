@@ -1,0 +1,29 @@
+{
+    "version": "0.37.1",
+    "description": "Stirling-PDF",
+    "homepage": "https://github.com/Stirling-Tools/Stirling-PDF",
+    "license": "GPL-3.0",
+    "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v0.37.1/win-Stirling-PDF-portable-Server.exe",
+    "shortcuts": [
+        [
+            "win-Stirling-PDF-portable-Server.exe",
+            "Stirling-PDF"
+        ]
+    ],
+    "bin": [
+        [
+            "win-Stirling-PDF-portable-Server.exe",
+            "pdf-server"
+        ]
+    ],
+    "persist": [
+        "configs",
+        "customFiles",
+        "logs",
+        "pipeline"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v$version/win-Stirling-PDF-portable-Server.exe"
+    }
+}

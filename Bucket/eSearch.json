@@ -1,0 +1,18 @@
+{
+    "version": "14.4.1",
+    "description": "eSearch",
+    "homepage": "https://github.com/xushengfeng/eSearch",
+    "license": "GPL-3.0",
+    "url": "https://github.com/xushengfeng/eSearch/releases/download/14.4.1/eSearch-14.4.1-win32-x64.zip",
+    "shortcuts": [
+        [
+            "e-search.exe",
+            "eSearch"
+        ]
+    ],
+    "persist": "portable",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/xushengfeng/eSearch/releases/download/$version/eSearch-$version-win32-x64.zip"
+    }
+}

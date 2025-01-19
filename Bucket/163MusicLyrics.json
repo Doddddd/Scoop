@@ -1,0 +1,22 @@
+{
+    "version": "6.5",
+    "description": "163MusicLyrics",
+    "homepage": "https://github.com/jitwxs/163MusicLyrics",
+    "license": "Apache-2.0",
+    "url": "https://github.com/jitwxs/163MusicLyrics/releases/download/v6.5/MusicLyricApp.v6.5.pro.zip",
+    "pre_install": [
+        "if (Test-Path \"$scoopdir\\apps\\$app\\$old_version\\MusicLyricAppSetting.json\") {",
+        "    Copy-Item -Path \"$scoopdir\\apps\\$app\\$old_version\\MusicLyricAppSetting.json\" \"$dir\\MusicLyricAppSetting.json\"",
+        "}"
+    ],
+    "shortcuts": [
+        [
+            "MusicLyricApp.exe",
+            "163MusicLyrics"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/jitwxs/163MusicLyrics/releases/download/v$version/MusicLyricApp.v$version.pro.zip"
+    }
+}

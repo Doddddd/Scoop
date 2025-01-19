@@ -1,0 +1,24 @@
+{
+    "version": "6.8.0",
+    "description": "阿里云盘",
+    "homepage": "https://www.aliyundrive.com",
+    "license": "Freeware",
+    "url": "https://cdn.aliyundrive.net/downloads/apps/desktop/aDrive-6.8.0.exe#/dl.7z",
+    "shortcuts": [
+        [
+            "aDrive.exe",
+            "阿里云盘"
+        ]
+    ],
+    "post_install": [
+        "Remove-Item -Force -Recurse \"$dir\\`$PLUGINSDIR\"",
+        "Remove-Item -Force -Recurse \"$dir\\`$TEMP\""
+    ],
+    "checkver": {
+        "url": "https://www.aliyundrive.com/desktop/version/update.json",
+        "regex": "/([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://cdn.aliyundrive.net/downloads/apps/desktop/aDrive-$version.exe#/dl.7z"
+    }
+}
