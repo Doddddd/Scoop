@@ -6,7 +6,10 @@
     "url": "https://dl.google.com/android/repository/commandlinetools-win-11076708_latest.zip",
     "extract_dir": "cmdline-tools",
     "extract_to" : "cmdline-tools\\latest",
-    "env_add_path": "cmdline-tools/latest\\bin",
+    "env_add_path": [
+        "cmdline-tools\\latest\\bin",
+        "platform-tools"
+    ],
     "env_set": {
         "ANDROID_HOME": "$dir\\cmdline-tools\\latest"
     },
