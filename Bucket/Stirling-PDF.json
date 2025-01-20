@@ -1,9 +1,9 @@
 {
-    "version": "0.37.1",
+    "version": "0.38.0",
     "description": "Stirling-PDF",
     "homepage": "https://github.com/Stirling-Tools/Stirling-PDF",
     "license": "GPL-3.0",
-    "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v0.37.1/win-Stirling-PDF-portable-Server.exe",
+    "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v0.38.0/win-Stirling-PDF-portable-Server.exe",
     "shortcuts": [
         [
             "win-Stirling-PDF-portable-Server.exe",
