@@ -1,9 +1,9 @@
 {
-    "version": "2.12.26",
+    "version": "2.12.28",
     "description": "Icalingua++",
     "homepage": "https://github.com/Icalingua-plus-plus/Icalingua-plus-plus",
     "license": "AGPL-3.0",
-    "url": "https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v2.12.26/Icalingua++-2.12.26_x64.exe#/dl.7z",
+    "url": "https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v2.12.28/Icalingua++-2.12.28_x64.exe#/dl.7z",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
         "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Force -Recurse"
