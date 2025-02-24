@@ -1,9 +1,9 @@
 {
-    "version": "3.7.0",
+    "version": "3.8.0",
     "description": "CompactGUI",
     "homepage": "https://github.com/IridiumIO/CompactGUI",
     "license": "GPL-3.0",
-    "url": "https://github.com/IridiumIO/CompactGUI/releases/download/v3.7.0/CompactGUI-mono.exe",
+    "url": "https://github.com/IridiumIO/CompactGUI/releases/download/v3.8.0/CompactGUI-mono.exe",
     "shortcuts": [
         [
             "CompactGUI-mono.exe",
