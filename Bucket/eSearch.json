@@ -1,9 +1,9 @@
 {
-    "version": "14.4.1",
+    "version": "14.5.0",
     "description": "eSearch",
     "homepage": "https://github.com/xushengfeng/eSearch",
     "license": "GPL-3.0",
-    "url": "https://github.com/xushengfeng/eSearch/releases/download/14.4.1/eSearch-14.4.1-win32-x64.zip",
+    "url": "https://github.com/xushengfeng/eSearch/releases/download/14.5.0/eSearch-14.5.0-win32-x64.zip",
     "shortcuts": [
         [
             "e-search.exe",
