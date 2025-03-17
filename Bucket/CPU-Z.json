@@ -1,9 +1,9 @@
 {
-    "version": "2.14",
+    "version": "2.15",
     "description": "CPU-Z",
     "homepage": "https://www.cpuid.com/softwares/cpu-z.html",
     "license": "Freeware",
-    "url": "https://download.cpuid.com/cpu-z/cpu-z_2.14-cn.zip",
+    "url": "https://download.cpuid.com/cpu-z/cpu-z_2.15-cn.zip",
     "bin": [
         [
             "cpuz_x64.exe",
