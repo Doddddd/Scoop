@@ -1,11 +1,11 @@
 {
-    "version": "11076708",
+    "version": "13114758",
     "description": "Android-SDK",
     "homepage": "https://developer.android.com/studio",
     "license": "Freeware",
-    "url": "https://dl.google.com/android/repository/commandlinetools-win-11076708_latest.zip",
+    "url": "https://dl.google.com/android/repository/commandlinetools-win-13114758_latest.zip",
     "extract_dir": "cmdline-tools",
-    "extract_to" : "cmdline-tools\\latest",
+    "extract_to": "cmdline-tools\\latest",
     "env_add_path": [
         "cmdline-tools\\latest\\bin",
         "platform-tools"
