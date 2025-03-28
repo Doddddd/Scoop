@@ -1,9 +1,9 @@
 {
-    "version": "2.1.1",
+    "version": "2.",
     "description": "MemoTrace",
     "homepage": "https://github.com/LC044/WeChatMsg",
     "license": "GPL-3.0",
-    "url": "https://github.com/LC044/WeChatMsg/releases/download/v2.1.1/MemoTrace-2.1.1.exe#/dl.7z",
+    "url": "https://github.com/LC044/WeChatMsg/releases/download/v2./MemoTrace-2..exe#/dl.7z",
     "shortcuts": [
         [
             "MemoTrace.exe",
