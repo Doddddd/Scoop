@@ -1,9 +1,9 @@
 {
-    "version": "1.19.5",
+    "version": "1.19.6",
     "description": "Mihomo-compatible",
     "homepage": "https://github.com/MetaCubeX/mihomo",
     "license": "GPL-3.0",
-    "url": "https://github.com/MetaCubeX/mihomo/releases/download/v1.19.5/mihomo-windows-amd64-compatible-v1.19.5.zip",
+    "url": "https://github.com/MetaCubeX/mihomo/releases/download/v1.19.6/mihomo-windows-amd64-compatible-v1.19.6.zip",
     "pre_install": "Get-ChildItem \"$dir\\mihomo*.exe\" | Rename-Item -NewName 'mihomo.exe'",
     "bin": [
         [
