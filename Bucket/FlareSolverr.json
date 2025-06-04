@@ -1,9 +1,9 @@
 {
-    "version": "3.3.22",
+    "version": "3.3.24",
     "description": "FlareSolverr",
     "homepage": "https://github.com/FlareSolverr/FlareSolverr",
     "license": "MIT",
-    "url": "https://github.com/FlareSolverr/FlareSolverr/releases/download/v3.3.22/flaresolverr_windows_x64.zip",
+    "url": "https://github.com/FlareSolverr/FlareSolverr/releases/download/v3.3.24/flaresolverr_windows_x64.zip",
     "extract_dir": "flaresolverr",
     "shortcuts": [
         [
