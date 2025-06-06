@@ -1,9 +1,9 @@
 {
-    "version": "7.0",
+    "version": "7.1",
     "description": "163MusicLyrics",
     "homepage": "https://github.com/jitwxs/163MusicLyrics",
     "license": "Apache-2.0",
-    "url": "https://github.com/jitwxs/163MusicLyrics/releases/download/v7.0/MusicLyricApp.v7.0.pro.zip",
+    "url": "https://github.com/jitwxs/163MusicLyrics/releases/download/v7.1/MusicLyricApp.v7.1.pro.zip",
     "pre_install": [
         "if (Test-Path \"$scoopdir\\apps\\$app\\$old_version\\MusicLyricAppSetting.json\") {",
         "    Copy-Item -Path \"$scoopdir\\apps\\$app\\$old_version\\MusicLyricAppSetting.json\" \"$dir\\MusicLyricAppSetting.json\"",
