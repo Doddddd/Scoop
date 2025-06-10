@@ -1,9 +1,9 @@
 {
-    "version": "7.55.1.101",
+    "version": "7.57.0.102",
     "description": "百度网盘",
     "homepage": "https://pan.baidu.com",
     "license": "Freeware",
-    "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.55.1.101.exe#dl.7z",
+    "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.57.0.102.exe#dl.7z",
     "shortcuts": [
         [
             "BaiduNetdisk.exe",
