@@ -1,9 +1,9 @@
 {
-    "version": "0.9.0",
+    "version": "0.9.1",
     "description": "Ollama",
     "homepage": "https://github.com/ollama/ollama",
     "license": "MIT",
-    "url": "https://github.com/ollama/ollama/releases/download/v0.9.0/OllamaSetup.exe",
+    "url": "https://github.com/ollama/ollama/releases/download/v0.9.1/OllamaSetup.exe",
     "innosetup": true,
     "shortcuts": [
         [
