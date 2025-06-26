@@ -1,9 +1,9 @@
 {
-    "version": "0.3.17-10",
+    "version": "0.3.17-11",
     "description": "LM Studio",
     "homepage": "https://lmstudio.ai",
     "license": "Freeware",
-    "url": "https://installers.lmstudio.ai/win32/x64/0.3.17-10/LM-Studio-0.3.17-10-x64.exe#/dl.7z",
+    "url": "https://installers.lmstudio.ai/win32/x64/0.3.17-11/LM-Studio-0.3.17-11-x64.exe#/dl.7z",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
