@@ -1,9 +1,9 @@
 {
-    "version": "/releases/tag/138.0.7204.96",
+    "version": "https://updatecdn.meeting.qq.com/cos/8f7e8eb310e659ebfefeed2a79ddeaca/TencentMeeting_0300000000_3.35.1.435.publish.officialwebsite.exe\",\"version\":\"3.35.1.435\"",
     "description": "QQ-NT",
     "homepage": "https://im.qq.com",
     "license": "Freeware",
-    "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_138.0.7204.96__x64_01.exe#/dl.7z",
+    "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_3.35.1.435__x64_01.exe#/dl.7z",
     "shortcuts": [
         [
             "Files\\QQ.exe",
