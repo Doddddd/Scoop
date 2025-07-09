@@ -1,9 +1,9 @@
 {
-    "version": ">5.9.0.1<",
+    "version": "/releases/tag/138.0.7204.96",
     "description": "QQ-NT",
     "homepage": "https://im.qq.com",
     "license": "Freeware",
-    "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_5.9.0.1_.1_x64_01.exe#/dl.7z",
+    "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_138.0.7204.96__x64_01.exe#/dl.7z",
     "shortcuts": [
         [
             "Files\\QQ.exe",
