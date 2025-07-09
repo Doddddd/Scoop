@@ -1,9 +1,9 @@
 {
-    "version": "Version 2.16 for windows",
+    "version": ">5.9.0.1<",
     "description": "QQ-NT",
     "homepage": "https://im.qq.com",
     "license": "Freeware",
-    "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_2.16__x64_01.exe#/dl.7z",
+    "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_5.9.0.1_.1_x64_01.exe#/dl.7z",
     "shortcuts": [
         [
             "Files\\QQ.exe",
