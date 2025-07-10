@@ -1,9 +1,9 @@
 {
-    "version": "/releases/tag/v10.24.68.0",
+    "version": "/releases/tag/2025.1",
     "description": "QQ-NT",
     "homepage": "https://im.qq.com",
     "license": "Freeware",
-    "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_10.24.68.0__x64_01.exe#/dl.7z",
+    "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_2025.1__x64_01.exe#/dl.7z",
     "shortcuts": [
         [
             "Files\\QQ.exe",
