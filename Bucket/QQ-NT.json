@@ -1,9 +1,9 @@
 {
-    "version": "/releases/tag/v1.1.4",
+    "version": ">commandlinetools-win-13114758_latest.zip</button>",
     "description": "QQ-NT",
     "homepage": "https://im.qq.com",
     "license": "Freeware",
-    "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_1.1.4__x64_01.exe#/dl.7z",
+    "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_13114758__x64_01.exe#/dl.7z",
     "extract_dir": "Files",
     "shortcuts": [
         [
