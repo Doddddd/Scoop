@@ -1,9 +1,9 @@
 {
-    "version": "10.23.6.0",
+    "version": "10.24.68.0",
     "description": "Office Tool Plus",
     "homepage": "https://github.com/YerongAI/Office-Tool",
     "license": "MIT",
-    "url": "https://github.com/YerongAI/Office-Tool/releases/download/v10.23.6.0/Office_Tool_with_runtime_v10.23.6.0_x64.zip",
+    "url": "https://github.com/YerongAI/Office-Tool/releases/download/v10.24.68.0/Office_Tool_with_runtime_v10.24.68.0_x64.zip",
     "extract_dir": "Office Tool",
     "shortcuts": [
         [
