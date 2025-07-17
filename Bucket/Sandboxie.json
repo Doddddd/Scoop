@@ -1,0 +1,11 @@
+{
+    "version": "1.15.12",
+    "description": "Sandboxie",
+    "homepage": "https://github.com/sandboxie-plus/Sandboxie",
+    "license": "GPL-3.0",
+    "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.15.12/Sandboxie-Plus-x64-v1.15.12.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/$version/Sandboxie-Plus-x64-$version.exe"
+    }
+}
