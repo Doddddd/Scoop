@@ -20,14 +20,6 @@
         ]
     ],
     "persist": "config",
-    "post_install": [
-        "$webuiPath = \"$dir\\config\\ui\"",
-        "if (!(Test-Path $webuiPath)) {",
-        "    git clone -b gh-pages https://github.com/metacubex/metacubexd.git --depth 1 $webuiPath",
-        "} else {",
-        "    git -C $webuiPath pull --depth 1",
-        "}"
-    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/MetaCubeX/mihomo/releases/download/v$version/mihomo-windows-amd64-v$version.zip"
